@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5CBB70342F6F659D4DA7C779 /* Pods_socialnetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEF759AFA7DB8DE0F0211F9 /* Pods_socialnetwork.framework */; };
 		D3245B151F2E93140092F2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B141F2E93140092F2FF /* AppDelegate.swift */; };
-		D3245B171F2E93140092F2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B161F2E93140092F2FF /* ViewController.swift */; };
+		D3245B171F2E93140092F2FF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B161F2E93140092F2FF /* SignInVC.swift */; };
 		D3245B1A1F2E93140092F2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3245B181F2E93140092F2FF /* Main.storyboard */; };
 		D3245B1C1F2E93140092F2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3245B1B1F2E93140092F2FF /* Assets.xcassets */; };
 		D3245B1F1F2E93140092F2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3245B1D1F2E93140092F2FF /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		A21E712F06DB6E4AF652166F /* Pods-socialnetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialnetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socialnetwork/Pods-socialnetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		D3245B111F2E93140092F2FF /* socialnetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialnetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3245B141F2E93140092F2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3245B161F2E93140092F2FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3245B161F2E93140092F2FF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		D3245B191F2E93140092F2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3245B1B1F2E93140092F2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3245B1E1F2E93140092F2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,8 +72,10 @@
 		D3245B131F2E93140092F2FF /* socialnetwork */ = {
 			isa = PBXGroup;
 			children = (
+				D3245B2A1F2E9AE90092F2FF /* Model */,
+				D3245B291F2E9AE60092F2FF /* View */,
+				D3245B281F2E9AE10092F2FF /* Controller */,
 				D3245B141F2E93140092F2FF /* AppDelegate.swift */,
-				D3245B161F2E93140092F2FF /* ViewController.swift */,
 				D3245B181F2E93140092F2FF /* Main.storyboard */,
 				D3245B1B1F2E93140092F2FF /* Assets.xcassets */,
 				D3245B1D1F2E93140092F2FF /* LaunchScreen.storyboard */,
@@ -81,6 +83,28 @@
 				D3245B261F2E964E0092F2FF /* GoogleService-Info.plist */,
 			);
 			path = socialnetwork;
+			sourceTree = "<group>";
+		};
+		D3245B281F2E9AE10092F2FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3245B161F2E93140092F2FF /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D3245B291F2E9AE60092F2FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D3245B2A1F2E9AE90092F2FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		ECA0D5C3C1F9757E3B033634 /* Frameworks */ = {
@@ -215,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3245B171F2E93140092F2FF /* ViewController.swift in Sources */,
+				D3245B171F2E93140092F2FF /* SignInVC.swift in Sources */,
 				D3245B151F2E93140092F2FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +406,7 @@
 				D3245B251F2E93140092F2FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
