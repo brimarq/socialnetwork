@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftKeychainWrapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -42,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>44CAD6CE523055ED339E87154473A254</key>
+		<key>2D3E327D71D6E5899A5DD12588FB1EB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BB7C59E9AD7D704239B6F3E99665A6AD</key>
+		<key>44CAD6CE523055ED339E87154473A254</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -63,6 +68,11 @@
 			<true/>
 		</dict>
 		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F750EC9FF0E3C5033281454C2EAD626F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

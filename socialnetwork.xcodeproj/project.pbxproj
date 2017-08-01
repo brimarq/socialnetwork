@@ -19,6 +19,7 @@
 		D3245B311F2FA8FF0092F2FF /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B301F2FA8FF0092F2FF /* RoundBtn.swift */; };
 		D3245B331F2FAB040092F2FF /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B321F2FAB040092F2FF /* FancyField.swift */; };
 		D3245B351F2FAC750092F2FF /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B341F2FAC750092F2FF /* FancyBtn.swift */; };
+		D3245B371F2FF6620092F2FF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B361F2FF6620092F2FF /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D3245B301F2FA8FF0092F2FF /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		D3245B321F2FAB040092F2FF /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		D3245B341F2FAC750092F2FF /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		D3245B361F2FF6620092F2FF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D3245B161F2E93140092F2FF /* SignInVC.swift */,
+				D3245B361F2FF6620092F2FF /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				D3245B171F2E93140092F2FF /* SignInVC.swift in Sources */,
 				D3245B311F2FA8FF0092F2FF /* RoundBtn.swift in Sources */,
 				D3245B151F2E93140092F2FF /* AppDelegate.swift in Sources */,
+				D3245B371F2FF6620092F2FF /* FeedVC.swift in Sources */,
 				D3245B2C1F2FA63C0092F2FF /* FancyView.swift in Sources */,
 				D3245B2F1F2FA70C0092F2FF /* Constants.swift in Sources */,
 				D3245B351F2FAC750092F2FF /* FancyBtn.swift in Sources */,

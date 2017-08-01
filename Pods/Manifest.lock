@@ -50,6 +50,7 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.11)
+  - SwiftKeychainWrapper (3.0.1)
 
 DEPENDENCIES:
   - FBSDKLoginKit
@@ -57,6 +58,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -71,7 +73,8 @@ SPEC CHECKSUMS:
   FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
 
-PODFILE CHECKSUM: e646335a518ac8d32fa1d41f817affd93dc1afda
+PODFILE CHECKSUM: b88643111f32a92285657b6e0dc6d0202ea8b54d
 
 COCOAPODS: 1.2.1
