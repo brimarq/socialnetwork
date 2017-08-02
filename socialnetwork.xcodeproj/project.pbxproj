@@ -22,6 +22,7 @@
 		D3245B371F2FF6620092F2FF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B361F2FF6620092F2FF /* FeedVC.swift */; };
 		D3245B391F3019920092F2FF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3245B381F3019920092F2FF /* CircleView.swift */; };
 		D362EA661F31095100C30E15 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362EA651F31095100C30E15 /* PostCell.swift */; };
+		D362EA691F3122AA00C30E15 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362EA681F3122AA00C30E15 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		D3245B361F2FF6620092F2FF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		D3245B381F3019920092F2FF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		D362EA651F31095100C30E15 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D362EA681F3122AA00C30E15 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		D3245B131F2E93140092F2FF /* socialnetwork */ = {
 			isa = PBXGroup;
 			children = (
+				D362EA671F31211D00C30E15 /* Services */,
 				D3245B2D1F2FA6F90092F2FF /* Util */,
 				D3245B2A1F2E9AE90092F2FF /* Model */,
 				D3245B291F2E9AE60092F2FF /* View */,
@@ -137,6 +140,14 @@
 				D3245B2E1F2FA70C0092F2FF /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		D362EA671F31211D00C30E15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D362EA681F3122AA00C30E15 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		ECA0D5C3C1F9757E3B033634 /* Frameworks */ = {
@@ -276,6 +287,7 @@
 				D3245B171F2E93140092F2FF /* SignInVC.swift in Sources */,
 				D3245B311F2FA8FF0092F2FF /* RoundBtn.swift in Sources */,
 				D3245B151F2E93140092F2FF /* AppDelegate.swift in Sources */,
+				D362EA691F3122AA00C30E15 /* DataService.swift in Sources */,
 				D3245B371F2FF6620092F2FF /* FeedVC.swift in Sources */,
 				D3245B2C1F2FA63C0092F2FF /* FancyView.swift in Sources */,
 				D3245B2F1F2FA70C0092F2FF /* Constants.swift in Sources */,
