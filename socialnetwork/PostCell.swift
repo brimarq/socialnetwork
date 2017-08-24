@@ -16,6 +16,7 @@ class PostCell: UITableViewCell {
     @IBOutlet weak var postImg: UIImageView!
     @IBOutlet weak var caption: UITextView!
     @IBOutlet weak var likesLbl: UILabel!
+    @IBOutlet weak var likeImg: UIImageView!
     
     var post: Post!
 
@@ -49,6 +50,16 @@ class PostCell: UITableViewCell {
             })
 
         }
+        
+        // Check if the cell is liked by the current user, if so, display the filled-heart image.
+        let likesRef = DataService.ds.REF_USER_CURRENT.child("likes")
+        likesRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            if let _ = snapshot.value as? NSNull {
+                self.likeImg.image = UIImage(named: "empty-heart")
+            } else {
+                self.likeImg.image = UIImage(named: "filled-heart")
+            }
+        })
     }
 
     
